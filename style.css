@@ -966,3 +966,37 @@ hr{
     width: 150px;
     height: auto;
 }
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        min-height: 400px;
+    }
+    .hero-content {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .services-section {
+        padding: 40px 20px;
+    }
+    .services-content {
+        flex-direction: column;
+    }
+    .service-cards {
+        width: 100%;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-card img {
+        width: 100%;
+        height: auto;
+    }
+}
